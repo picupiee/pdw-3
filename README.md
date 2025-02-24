@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portal Digital Warga
 
-## Getting Started
+## Tentang PDW
 
-First, run the development server:
+PDW adalah proyek aplikasi berbasis web untuk memudahkan kepengurusan lingkup RT dalam mendata warga, pelaporan warga masuk atau keluar dan fasilitas lain yang berhubungan dengan kemasyarakatan dengan menggunakan ponsel pintar.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Di dalam aplikasi web ini, akan disediakan fitur utama yaitu pendataan warga, pembaharuan atau penghapusan data, akses publik terbatas untuk data warga, pengumpulan data warga terproteksi (jika membutuhkan soft copy KTP dan KK), laporan warga secara mandiri dan kotak saran untuk kepengurusan RT ataupun kegiatan yang ingin diadakan di dalam lingkungan RT.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Perlu diketahui
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Untuk penyimpanan data warga, termasuk soft copy KTP dan KK, anda perlu menggunakan penyedia layanan hosting aplikasi dan data dengan keamanan yang baik. Saya menyarankan Firebase sebagai penyedia layanan hosting, database dan penyimpanan. Selain mendapatkan kuota gratis setiap bulan, sistem penagihan yang ditawarkan adalah penagihan yang dihitung hanya dari penggunaan diluar kuota gratis. Dengan begitu, beban anggaran tidak akan melonjak tinggi atau terlalu mahal jika penggunaan layanan tidak terlalu banyak.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Kontribusi, masukkan atau saran
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Kontribusi, masukkan atau saran adalah hal yang saya sangat hormati. Jika anda memiliki pertanyaan seputar proyek ini, atau bila anda ingin memberikan kontribusi terhadap proyek ini, saya akan terima dengan tangan terbuka. Proyek ini bersifat open-source, dimana anda bisa memodifikasi, replikasi, ataupun mendistribusikan kembali.
